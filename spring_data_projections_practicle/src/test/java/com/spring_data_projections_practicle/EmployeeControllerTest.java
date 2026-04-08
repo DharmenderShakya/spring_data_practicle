@@ -97,7 +97,7 @@ class EmployeeControllerTest {
 
     @Test
     void testGetEmployeeProjection() throws Exception {
-        // Use a real implementation of EmployeeProjection
+      
         EmployeeProjection projection = new EmployeeProjection() {
             @Override
             public String getFullName() {
